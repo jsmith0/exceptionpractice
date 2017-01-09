@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Your number is: " + i);
         }
         catch (InputMismatchException w){
-            InputMismatchException q = new InputMismatchException("I said numbers!");
+            InputMismatchException q = new InputMismatchException("I said numbers! " + w);
             throw q;
         }
     }
